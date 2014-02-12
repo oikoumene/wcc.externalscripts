@@ -5,5 +5,19 @@
 
     <include package="plone.app.portlets" file="permissions.zcml"/>
     <!-- -*- extra stuff goes here -*- -->
+    <plone:portlet
+        name="wcc.externalscripts.portlet.EbscoSearch"
+        interface=".ebscosearch.IEbscoSearch"
+        assignment=".ebscosearch.Assignment"
+        renderer=".ebscosearch.Renderer"
+        addview=".ebscosearch.AddForm"
+        />
+    <plone:portlet
+        name="wcc.externalscripts.portlet.SwissbibSearch"
+        interface=".swissbibsearch.ISwissbibSearch"
+        assignment=".swissbibsearch.Assignment"
+        renderer=".swissbibsearch.Renderer"
+        addview=".swissbibsearch.AddForm"
+        />
 
 </configure>

@@ -2,5 +2,15 @@
 <portlets>
 
     <!-- -*- extra stuff goes here -*- -->
+ <portlet 
+   addview="wcc.externalscripts.portlet.EbscoSearch"
+   title="Ebsco Search"
+   description="Ebsco search box"/>
+
+ <portlet 
+   addview="wcc.externalscripts.portlet.SwissbibSearch"
+   title="Swissbib Search"
+   description="Swissbib search box"/>
+
 
 </portlets>
