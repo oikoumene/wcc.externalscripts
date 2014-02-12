@@ -26,10 +26,10 @@
 </script>
   <!-- change background color of the icon -->
   <div style="margin:5px 0 0 15px; background: #8D919D url(http://www.swissbib.ch/TouchPoint/nose/common/style/img/logo_swissbib_ng.gif) no-repeat; height: 55px; padding-left:130px;">
-    <form style="padding:10px 0 0 20px; " onsubmit="return search_swissbib();">
+    <form style="padding:5px 0 0 20px; " onsubmit="return search_swissbib();">
       <fieldset style="margin: 0; padding: 0; border: none;">
-        <input style="display:block;float:left;width:220px;" name="SEARCH_ALL" id="INPUT_SWISSBIB_SEARCH" type="text" />
-        <input style="height:25px; width:100px;  margin-top:5px; display:block;float:left;font-size:7pt;"  type="submit" value="Search Books" />
+        <input style="display:block;float:left;width:210px;" name="SEARCH_ALL" id="INPUT_SWISSBIB_SEARCH" type="text" />
+        <input style="height:25px; width:100px;  margin-top:2px; display:block;float:left;font-size:7pt;"  type="submit" value="Search Books" />
 
         <!--if you don't want the checkboxe checked leave the option "checked" empty -->
         <input id="filterMaps"  style="margin:5px 0 0 10px; padding-left:10px; display:block; float:left;" type="checkbox" value="Search" />
