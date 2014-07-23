@@ -1,0 +1,8 @@
+<dl class="portlet portletRawPortlet"
+    i18n:domain="wcc.externalscripts">
+
+    <dd class="portletItem">
+    <div tal:replace="structure view/data/raw_content"></div>
+    </dd>
+
+</dl>

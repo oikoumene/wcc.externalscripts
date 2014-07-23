@@ -3,6 +3,10 @@
 
     <!-- -*- extra stuff goes here -*- -->
  <portlet 
+   addview="wcc.externalscripts.portlet.RawPortlet"
+   title="Raw Portlet"
+   description=""/>
+ <portlet 
    addview="wcc.externalscripts.portlet.EbscoSearch"
    title="Ebsco Search"
    description="Ebsco search box"/>

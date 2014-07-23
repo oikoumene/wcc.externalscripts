@@ -6,6 +6,14 @@
     <include package="plone.app.portlets" file="permissions.zcml"/>
     <!-- -*- extra stuff goes here -*- -->
     <plone:portlet
+        name="wcc.externalscripts.portlet.RawPortlet"
+        interface=".rawportlet.IRawPortlet"
+        assignment=".rawportlet.Assignment"
+        renderer=".rawportlet.Renderer"
+        addview=".rawportlet.AddForm"
+        editview=".rawportlet.EditForm"
+        />
+    <plone:portlet
         name="wcc.externalscripts.portlet.EbscoSearch"
         interface=".ebscosearch.IEbscoSearch"
         assignment=".ebscosearch.Assignment"
